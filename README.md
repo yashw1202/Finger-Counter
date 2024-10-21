@@ -17,13 +17,14 @@ LEDs and Resistors
 Jumper wires
 Breadboard
 Setup Instructions
-1. Install Required Python Libraries:
+  1. Install Required Python Libraries:
 Make sure you have OpenCV and PyFirmata installed.
 
 bash
 Copy code
 pip install opencv-python pyfirmata
-2. Setup the Arduino:
+
+  2. Setup the Arduino:
 To enable communication between Python and Arduino, upload the Standard Firmata firmware to your Arduino board.
 
 Steps:
@@ -31,16 +32,19 @@ Open the Arduino IDE.
 Go to File > Examples > Firmata > StandardFirmata.
 Select your board and port from Tools.
 Upload the StandardFirmata sketch to the Arduino.
-3. Connect LEDs:
+
+  3. Connect LEDs:
 Connect LEDs to the appropriate digital pins on the Arduino (e.g., D2, D3, D4, etc.).
 Use resistors to prevent damage to the LEDs.
-4. Run the Finger Counter Program:
+
+  4. Run the Finger Counter Program:
 Once the Arduino is set up, run the Python program to start detecting fingers and lighting up LEDs.
 
 bash
 Copy code
 python finger_counter.py
-5. Customize:
+
+  5. Customize:
 Feel free to modify the code for different hand gestures or control other devices using Arduino.
 
 Usage
